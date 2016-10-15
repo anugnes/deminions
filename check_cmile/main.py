@@ -1,4 +1,4 @@
-#!env/bin/python
+#!/usr/local/bin/python
 from Libraries.gmail_utils import generate_google_service, send_message
 from Libraries.utils import create_message
 import time
@@ -21,7 +21,7 @@ def main():
 
     r = requests.get('http://beta.cmile.co.uk/#!/guest/login')
 
-    if r.status_code == 200:
+    if not r.status_code == 200:
 
         message = create_message(
             settings['sender'],

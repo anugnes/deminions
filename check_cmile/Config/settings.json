@@ -2,6 +2,6 @@
   "client_secret_file": "/../Config/client_secret_deminion.json",
   "oauth_scope": ["https://mail.google.com/", "https://www.googleapis.com/auth/gmail.send"],
   "storage": "/../Config/gmail.storage",
-  "sender": "nugnes.alberto@gmail.com",
-  "receiver": "nugnes.alberto@gmail.com,eclipsehv@gmail.com"
+  "sender": "email@email.com",
+  "receiver": "email@email.com, email1@email.com"
 }
