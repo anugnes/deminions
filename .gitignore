@@ -1,4 +1,4 @@
 .idea
 *.pyc
-Config/client_secret_deminion.json
-Config/gmail.storage
+check_cmile/Config/client_secret_deminion.json
+check_cmile/Config/gmail.storage
